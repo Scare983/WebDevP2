@@ -1,1 +1,30 @@
 /*both html page css's are in this file.*/
+body {
+	margin: 0% 8% 5% 8%;
+}
+.container {
+	width: 80%;
+}
+ .NavBar{
+	list-style-type: none;
+	margin:0;
+	padding:0 15px 0 0;
+	overflow:hidden;
+	background-color:#282829;
+}
+.NavBar li {
+	float: right;
+	padding-right:10px;
+}
+.NavBar  a {
+	display:block;
+	color:#A9A9A9;
+	text-align:right;
+	font-size:10pt;
+	padding: 10px 10px;
+	text-decoration: none;
+	
+}
+.NavBar a:hover {
+	background-color:#111;
+}
