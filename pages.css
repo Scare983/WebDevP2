@@ -1,6 +1,7 @@
 /*both html page css's are in this file.*/
 body {
 	margin: 0% 8% 5% 8%;
+	
 	background-image:url("Images/stucco.png");
 }
 
@@ -22,12 +23,11 @@ body {
 	font-size:10pt;
 	padding: 10px 10px;
 	text-decoration: none;
-	
 }
 .topNavBar a:hover {
 	background-color:#111;
 }
-/* done with top-most nav bar */
+/* end of  top-most nav bar */
 h1 {
 	margin-top:5px;
 	color:#282829;
@@ -62,7 +62,7 @@ h1 {
 	padding: 1em .5em 1em .5em;
 }
 
-#formContainer h2 {
+ h2 { /* use this for medium size text */
 	margin: 0 0 0 0 ;
 }
 
@@ -73,4 +73,56 @@ h1 {
 	font-size: 9pt;
 	color: #A9A9A9;
 }
-/*end of otherNavBar/*
+/*end of otherNavBar*/
+
+hr {
+	opacity: .2;
+	margin: 0 0 0 0;
+	margin-bottom: 15px;
+}
+h3 { /* use this for subsections titles*/
+	margin: 0 0 0 0;
+}
+h4 { /* use for subsection title content tags ei. First name, Address, Birth Day. */
+	margin: 0 0 0 0;
+	font-family: arial;
+	font-size: 11pt;
+	
+}
+
+.flexItemAddress{
+	margin-bottom:10px;
+	flex:stretch;
+}
+
+.labelFixer {
+	margin-bottom:10px;
+	flex-basis:30%;
+}
+.labelFixerIndent {
+	flex-basis:50%;
+	margin-bottom:10px;
+	margin:0 1.5em 0 0;
+}
+
+
+/*container only used for three attributes. */
+.flexListContainer {
+	display:flex;
+	width:50%;
+	justify-content:flex-start;
+}
+
+input[name="city"],input[name="phone"] {
+	
+	width: 75%;
+}
+input[name="state"], input[name="address"]{
+	width: 50%;
+}
+select {
+	width:100%;
+}
+input[name="zip"] {
+	width:105%; /*go a little beyond 50% border assigned by */
+}
