@@ -28,11 +28,113 @@ body {
 	background-color:#111;
 }
 /* end of  top-most nav bar */
+<<<<<<< HEAD
 h1 {
 	margin-top:5px;
 	color:#282829;
 	font-size:26pt;
 }
+
+/****** EVAN *********/
+
+.pg1-container{
+	background-color: white;
+	margin-top: 15px;
+	padding: 10px;
+}
+
+a{
+	color:blue;
+}
+
+.row{
+	display: flex;
+	direction: row;
+	flex-wrap: wrap;
+}
+
+.column{
+	flex-basis: 100%;
+}
+
+.columnIMG1{
+	flex-basis:30%;
+}
+
+.columnIMG2{
+	flex-basis:70%;
+}
+
+.mainIMG{
+	width: 100%;
+	height: 100%;
+}
+
+.mainIMGdescription{
+	float: left;
+	margin-left:20px;
+}
+
+.price{
+	color:red;
+	margin-left:20px;
+}
+
+.rowBUTTONS{
+	display: flex;
+	direction: row;
+	flex-wrap: wrap;
+	margin-left:20px;
+	text-align:center;
+}
+
+.columnBUTTON1{
+	flex-basis:47%;
+	margin-top:40px;
+	margin-bottom:40px;
+	border-top-style:groove;
+	border-bottom-style:groove;
+	border-left-style:groove;
+	padding-top:10px;
+	padding-bottom:10px;
+	padding-left:10px;
+}
+.columnBUTTON2{
+	flex-basis:47%;
+	margin-top:40px;
+	margin-bottom:40px;
+	border-top-style:groove;
+	border-bottom-style:groove;
+	border-right-style:groove;
+	padding-top:10px;
+	padding-bottom:10px;
+	padding-left:10px;
+	padding-right:10px;
+}
+
+button{
+	width:95%;
+	height:40px;
+	font-size:100%;
+	color:blue;
+}
+
+.columnH3{
+	flex-basis:100%;
+	margin-left:20px;	
+}
+
+.columnTABLE{
+	flex-basis:100%;
+	margin-left:20px;
+}
+
+
+
+/******* EVAN ********/
+=======
+>>>>>>> 9f9816d6e938db4c6f3a946a93f03a509d9cd96e
+
 /*otherNavBar */
 .otherNavBar {
 	overflow:hidden;
@@ -56,17 +158,42 @@ h1 {
 .otherNavBar a:hover {
 	background-color:red;  
 }
+
+.mainBox{
+	background-color:white;
+	padding-left:0;
+	
+}
+
+.similarProd  li{
+	list-style:none;
+	float: left;
+	width: 22%;
+	border: thin silver solid;
+	margin: 5px;
+	text-align:center;
+}
+.similarProd p{
+	caption-side: bottom;
+}
+
 #formContainer  {
 	background-color:white;
 	margin: 1em 0 0 0 ;
 	padding: 1em .5em 1em .5em;
 }
 
+h1 {
+	margin-top:5px;
+	color:#282829;
+	font-size:26pt;
+}
  h2 { /* use this for medium size text */
 	margin: 0 0 0 0 ;
 }
 
 #footer {
+
 	background-color: #282829;
 	padding: 5px 0 5px 0;
 	text-align:center;
@@ -106,11 +233,37 @@ h4 { /* use for subsection title content tags ei. First name, Address, Birth Day
 }
 
 
+
 /*container only used for three attributes. */
 .flexListContainer {
 	display:flex;
 	width:50%;
 	justify-content:flex-start;
+}
+
+.slider{
+-webkit-appearance: none;
+  width: 100%;
+  height: 10px;
+  border-radius: 5px;
+  background: #d3d3d3;
+  outline: none;
+  opacity: 0.7;
+  -webkit-transition: .2s;
+  transition: opacity .2s;
+}
+
+.button {
+  background-color: #008CBA;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
 }
 
 input[name="city"],input[name="phone"] {

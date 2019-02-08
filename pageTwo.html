@@ -27,7 +27,39 @@
 			<h2>Customer Registration</h2>
 				<form action="http://www.randyconnolly.com/tests/process.php" method="get" id="registration">
 					
-	
+				<h3>2. Location</h3><!--use h3 for section tags -->
+				<hr>
+				
+					<div class="flexListContainer"> 
+						<div class="labelFixerIndent">
+							<h4>First Name</h4>
+							<input type="text" name="city" required> <br>
+						</div>
+						
+						<div class="labelFixer">
+							<h4>Last Name</h4>
+							<input type="text" name="zip" required> <br>
+						</div>	
+					</div> 
+					
+					<div class="labelFixer">
+						<h4>Email</h4> 
+						<input type="text" name="address" required> <br>
+					</div>
+					
+					
+					<div class="flexListContainer"> 
+						<div class="labelFixerIndent">
+							<h4>Password</h4>
+							<input type="text" name="city" required> <br>
+						</div>
+						
+						<div class="labelFixer">
+							<h4>Password Repeat</h4>
+							<input type="text" name="zip" required> <br>
+						</div>	
+					</div> 
+				
 			
 			
 						
@@ -348,6 +380,34 @@
 				
 				<h3>3. Personal Details<h3><!--use h3 for section tags -->
 				<hr>
+				
+				<div class="flexListContainer">
+					<div class="labelFixerIndent">
+						<h4>Birthday</h4>
+						<input type="date" name="birthday" required>
+					</div>	
+					<div class="labelFixer">
+						<h4>Favorite Color</h4>
+						<input type="color" name="favcolor" value="#000000">
+						
+					</div>
+				</div>
+				
+				<div class="flexListContainer">
+					<div class="labelFixerIndent">
+						<h4>Interest in Art</h4>
+						<input type="range" name="interest" min="0" max="10" class="slider">
+					</div>	
+				</div>
+				
+				<h3>4. All Done</h3>
+				<hr>
+				<div class="labelFixerIndent">
+					<input type="checkbox" name = "accept" value="on">I agree to the<a href="">Terms of the Site</a></br>
+				</div>
+				<img src="Images\button_ok.png">
+				<input type="submit" class="button">
+				
 				
 				</form>
 			
