@@ -58,6 +58,7 @@ h1 {
 }
 
 .similarProd  li{
+	display:block;
 	list-style:none;
 	float: left;
 	width: 22%;
