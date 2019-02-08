@@ -105,6 +105,22 @@ h4 { /* use for subsection title content tags ei. First name, Address, Birth Day
 	margin:0 1.5em 0 0;
 }
 
+.similarProd li{
+	
+	float: left;
+	width: 25%;
+	text-align: center;
+	font-style: italic;
+	font-size: smaller;
+	text-indent: 0;
+	border: thin silver solid;
+	margin: 0.5em;
+	padding: 0.5em;
+}
+.similarProd p{
+	display: table-caption;
+	caption-side: bottom;
+}
 
 /*container only used for three attributes. */
 .flexListContainer {
