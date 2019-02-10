@@ -12,10 +12,13 @@ body {
 	padding:0 15px 0 0;
 	overflow:hidden;
 	background-color:#282829;
+	
 }
 .topNavBar li {
 	float: right;
 	padding-right:10px;
+	
+	
 }
 .topNavBar  a {
 	display:block;
@@ -55,6 +58,8 @@ a{
 
 .column{
 	flex-basis: 100%;
+	max-width: 200px ;
+	max-height:200px;
 }
 
 .columnIMG1{
@@ -83,7 +88,7 @@ a{
 .rowBUTTONS{
 	display: flex;
 	direction: row;
-	flex-wrap: wrap;
+	
 	margin-left:20px;
 	text-align:center;
 }
@@ -162,14 +167,22 @@ button{
 	padding-left:0;
 	
 }
-
+.similarProd ul {
+	padding: inherit;
+	margin: inherit;
+	height:500px;
+}
+.ulHeight {
+	height:400px;
+}
 .similarProd  li{
 	display:block;
 	list-style:none;
 	float: left;
 	width: 22%;
 	border: thin silver solid;
-	margin: 5px;
+	margin: 5px ;
+	
 	text-align:center;
 }
 .similarProd p{
