@@ -93,7 +93,7 @@
 					<div class="flexListContainer">
 						<div class="labelFixerIndent">
 							<h4>Phone</h4> 
-							<input type="tel" name="phone" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" placeholder="NNN-NNN-NNN" required> <br>
+							<input type="tel" name="phone" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" placeholder="NNN-NNN-NNNN" required> <br>
 						</div>
 						<div class="labelFixer">
 							<h4>Country</h4>
@@ -393,11 +393,14 @@
 					</div>
 				</div>
 				
-				<div class="flexListContainer">
+				<div class="flexListContainerSlide">
+				<h4>Interest in Art</h4>
 					<div class="labelFixerIndent">
-						<h4>Interest in Art</h4>
-						<input type="range" name="interest" min="0" max="10" class="slider">
-					</div>	
+						Minimal
+							<input type="range" name="interest" min="0" max="10" class="slider">
+						Love it!
+					</div>
+		
 				</div>
 				
 				<h3>4. All Done</h3>
@@ -405,20 +408,20 @@
 				<div class="labelFixerIndent">
 					<input type="checkbox" name = "accept" value="on" required>I agree to the<a href="#">Terms of the Site</a> <br>
 				</div>
-				<img src="Images/button_ok.png" alt="Button_ok">
-				<input type="submit" class="button">
 				
 				
+				<div id="submitField">
+					
+					<button type="submit" alt="Button_ok">
+					<img src="Images/button_ok.png" alt="Button_Ok.img">
+						<p>Sign Me up!<p>
+							
+					</button>
+				</div>
 				</form>
 			
 		</div>
-		
-		
-
-		
-		
-		
-		
+	
 		
 		
 		<p id="footer">

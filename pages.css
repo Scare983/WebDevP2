@@ -283,7 +283,7 @@ h4 { /* use for subsection title content tags ei. First name, Address, Birth Day
 
 .slider{
 -webkit-appearance: none;
-  width: 100%;
+  width: 65%;
   height: 10px;
   border-radius: 5px;
   background: #d3d3d3;
@@ -300,11 +300,9 @@ h4 { /* use for subsection title content tags ei. First name, Address, Birth Day
   padding: 15px 32px;
   text-align: center;
   text-decoration: none;
-  display: inline-block;
   font-size: 16px;
   margin: 4px 2px;
   cursor: pointer;
-  
 }
 
 input[name="city"],input[name="phone"] {
@@ -319,4 +317,24 @@ select {
 }
 input[name="zip"] {
 	width:105%; /*go a little beyond 50% border assigned by */
+}
+#submitField {
+	display:inline-block;
+	width:20%;
+	margin:0 1.5em 0 0;
+	overflow:hidden;
+	text-overflow: ellipsis-word; 
+}
+#submitField p {
+	display:inline-block;
+	padding: 0 0 0 0;
+	margin: 0 0 0 0;
+	color:black;
+	font-size:8pt;
+}
+.flexListContainerSlide {
+	display:flex-inline;
+	width:50%;
+	justify-content:space-between;
+	align-items: flex-start;
 }
